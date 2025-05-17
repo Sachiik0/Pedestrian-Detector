@@ -1,11 +1,11 @@
-# Pedestrian-Detector
-This project is a commissioned work for Adamson University 3rd Year BS Computer Science students as part of their Capstone 1. It features real-time pedestrian and vehicle detection with LED matrix signaling using YOLO and Raspberry Pi.
-
 YOLOv8 PEDESTRIAN-VEHICLE DETECTION SYSTEM WITH LED DISPLAY
 ============================================================
 
 This system detects pedestrians and vehicles using two USB cameras and YOLOv8,
 and displays a status message ("STOP", "GO", or "OFF") on an 8x32 LED matrix display.
+
+Commissioned work for Adamson University 3rd Year BS Computer Science students 
+as part of their Capstone 1 project.
 
 ------------------------------------------------------------
 HARDWARE REQUIRED:
@@ -25,8 +25,23 @@ SOFTWARE REQUIREMENTS:
     - luma.led_matrix
     - Pillow
 
-To install dependencies, run:
-    pip install ultralytics opencv-python luma.led_matrix Pillow
+------------------------------------------------------------
+INSTALLATION INSTRUCTIONS:
+------------------------------------------------------------
+1. Boot your Raspberry Pi and open the Terminal.
+2. Clone or copy the project to your Raspberry Pi.
+3. Navigate to the project directory:
+
+       cd Ped_Detection
+
+4. (Optional) Create a virtual environment:
+
+       python3 -m venv venv
+       source venv/bin/activate
+
+5. Install the required packages:
+
+       pip install ultralytics opencv-python luma.led_matrix Pillow
 
 ------------------------------------------------------------
 MODEL FILE:
