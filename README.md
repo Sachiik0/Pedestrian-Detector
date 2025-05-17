@@ -4,9 +4,6 @@ YOLOv8 PEDESTRIAN-VEHICLE DETECTION SYSTEM WITH LED DISPLAY
 This system detects pedestrians and vehicles using two USB cameras and YOLOv8,
 and displays a status message ("STOP", "GO", or "OFF") on an 8x32 LED matrix display.
 
-Commissioned work for Adamson University 3rd Year BS Computer Science students 
-as part of their Capstone 1 project.
-
 ------------------------------------------------------------
 HARDWARE REQUIRED:
 ------------------------------------------------------------
